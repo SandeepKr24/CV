@@ -36,6 +36,7 @@ p {
 .intro {
   width: 30%;
   margin: auto;
+  padding-bottom: 20px;
 }
 
 .top-container {
@@ -82,11 +83,18 @@ p {
   margin-right: 30px;
 }
 
+.C {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
 .python {
   height: 150px;
   width: 150px;
-  float: right;
-  margin-left: 30px;
+  float: left;
+  margin-right: 30px;
 }
 
 .fball {
@@ -102,6 +110,18 @@ p {
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
+}
+
+.my-skills {
+  margin: auto;
+  display: inline-block;
+  text-align: justify;
+}
+
+.my-xp {
+  margin: auto;
+  display: inline-block;
+  text-align: justify;
 }
 
 .footballnbarca {
@@ -159,4 +179,8 @@ hr {
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
+}
+
+.skills {
+  padding-top: 20px;
 }
